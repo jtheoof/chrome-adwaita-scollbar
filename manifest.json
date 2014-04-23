@@ -1,0 +1,16 @@
+{
+   "manifest_version": 2,
+
+   "name": "Adwaita Scrollbar",
+   "version": "1.0",
+
+   "description": "Scrollbars for Google Chrome to integrate with the GNOME desktop environment with Adwaita theme.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "48": "icons/icon48.png"
+   },
+   "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "css": [ "css/scrollbars.css" ]
+   }]
+}
